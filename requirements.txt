@@ -12,9 +12,6 @@ packaging==25.0
 pathspec==0.12.1
 platformdirs==4.4.0
 pluggy==1.6.0
-# Use HTTPS so CI runners without SSH keys can install the package. If the repo is private,
-# see the README or update the workflow to use a PAT or install from the checked-out copy.
--e git+https://github.com/Yash4x/finalTest.git@c617e3bab00d7c778fd58c2587486b04317994a9#egg=project1
 Pygments==2.19.2
 pylint==3.3.8
 pytest==8.4.2
